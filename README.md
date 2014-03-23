@@ -14,11 +14,6 @@ Download the files and:
 
 ### Configuration
 
-* Install feh, edit the following line in .conkyrc with your wallpaper path, and uncomment it, just if you need this transparency method:
-
-		${exec feh --bg-scale /path/to/wallpaper.png}
-	
-
 * For GMail info, add your user/pass in .conky/gmail.py and uncomment the line. Note: script for package update info not included.
 * You can comment with # or remove the hddtemp line if you don't have this command working.
 

@@ -49,9 +49,6 @@ xftfont PF Tempesta Seven:pixelsize=8
 #use_spacer none
 minimum_size 200 0
 
-# This line enables transparency with feh method, uncomment if you want to use this method
-#${exec feh --bg-scale /path/to/wallpaper.jpg}
-
 
 
 TEXT
