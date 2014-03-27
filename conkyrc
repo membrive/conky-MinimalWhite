@@ -3,15 +3,15 @@
 # Download and installation info: https://github.com/membrive/conky-MinimalWhite
 # Remember! This code is free, so you can fork, modify or do whatever you want.
 
-# Avoid flicker
-double_buffer yes
-
 # Own window to run simultaneous 2 or more conkys
 own_window  yes
 own_window_transparent yes
+own_window_argb_visual yes
 own_window_type normal
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_argb_visual yes
+
+# Avoid flicker
+double_buffer yes
 
 # Borders
 draw_borders no
